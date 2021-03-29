@@ -111,11 +111,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch
 TARGET_USES_UNCOMPRESSED_KERNEL := false
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
-TARGET_KERNEL_CONFIG := umi_user_defconfig
-
-# Prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/xiaomi/umi/prebuilt/Image
-TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_KERNEL_CONFIG := vendor/umi_defconfig
 
 # Prebuilt DTB
 TARGET_PREBUILT_DTB := device/xiaomi/umi/prebuilt/dtb
