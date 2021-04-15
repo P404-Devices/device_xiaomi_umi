@@ -62,6 +62,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     device/xiaomi/umi/overlay \
     device/xiaomi/umi/overlay-404
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/sn100x
+
 # Properties
 TARGET_SYSTEM_PROP += device/xiaomi/umi/system.prop
 TARGET_VENDOR_PROP += device/xiaomi/umi/vendor.prop
