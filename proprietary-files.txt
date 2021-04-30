@@ -404,17 +404,6 @@ vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libubifocus.so
 
 # Camera-configs
-vendor/etc/camera/102_SummerDay.png
-vendor/etc/camera/103_Fantasy.png
-vendor/etc/camera/104_Meet.png
-vendor/etc/camera/105_WindSing.png
-vendor/etc/camera/106_Lost.png
-vendor/etc/camera/107_Central.png
-vendor/etc/camera/108_NorthernEurope.png
-vendor/etc/camera/109_Rome.png
-vendor/etc/camera/110_BlackGold.png
-vendor/etc/camera/111_GreenOrange.png
-vendor/etc/camera/112_CyberPunk.png
 vendor/etc/camera/113_BlackIce.png
 vendor/etc/camera/CFR_para_HD_V03.bin
 vendor/etc/camera/CFR_para_T_2x_V03.bin
