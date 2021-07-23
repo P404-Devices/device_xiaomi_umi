@@ -161,6 +161,7 @@ TARGET_PER_MGR_ENABLED := true
 
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //device/xiaomi/umi:libfod_extension
+TARGET_USES_FOD_ZPOS := true
 
 # Dex
 ifeq ($(HOST_OS),linux)
