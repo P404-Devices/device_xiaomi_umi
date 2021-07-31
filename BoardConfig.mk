@@ -114,7 +114,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
-TARGET_KERNEL_CONFIG := vendor/umi_defconfig
+TARGET_KERNEL_CONFIG := umi_defconfig
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
