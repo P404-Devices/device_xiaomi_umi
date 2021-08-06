@@ -494,7 +494,7 @@
     <ctl name="MultiMedia16 Mixer USB_AUDIO_TX" value="0" />
 
     <!-- USB Audio Format -->
-    <ctl name="USB_AUDIO_RX Format" value="S24_LE" />
+    <ctl name="USB_AUDIO_RX Format" value="S32_LE" />
 
     <!-- ultrasound related -->
     <ctl name="Ultrasound Enable" value="Off" />
