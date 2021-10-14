@@ -224,6 +224,7 @@ BUILD_BROKEN_USES_BUILD_HOST_STATIC_LIBRARY := true
 BUILD_BROKEN_USES_BUILD_HOST_EXECUTABLE := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
+SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/xiaomi/umi/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/xiaomi/umi/sepolicy/public
