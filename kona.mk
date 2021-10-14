@@ -1,6 +1,9 @@
 # Inherit proprietary targets
 $(call inherit-product-if-exists, vendor/xiaomi/umi/umi-vendor.mk)
 
+# HIDL HALs
+$(call inherit-product, $(LOCAL_PATH)/hidl.mk)
+
 # Enable AVB 2.0
 BOARD_AVB_ENABLE := true
 
