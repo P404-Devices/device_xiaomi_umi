@@ -19,33 +19,34 @@ ANT := AntHalService-Soong
 ATRACE_HAL := android.hardware.atrace@1.0-service
 
 #AUDIO_HAL
-AUDIO_HAL += android.hardware.audio@6.0-impl
 AUDIO_HAL += android.hardware.audio.effect@6.0-impl
 AUDIO_HAL += android.hardware.audio.service
-AUDIO_HAL += android.hardware.bluetooth.audio@2.0-impl
+AUDIO_HAL += android.hardware.audio@6.0-impl
 AUDIO_HAL += android.hardware.soundtrigger@2.3-impl
 AUDIO_HAL += audio.a2dp.default
+AUDIO_HAL += audio.bluetooth.default
 AUDIO_HAL += audio.primary.kona
 AUDIO_HAL += audio.r_submix.default
 AUDIO_HAL += audio.usb.default
-AUDIO_HAL += libaudio-resampler
-AUDIO_HAL += audio.hearing_aid.default
-AUDIO_HAL += audio.bluetooth.default
-AUDIO_HAL += liba2dpoffload
-AUDIO_HAL += libaudiozoom
+AUDIO_HAL += libaacwrapper
+AUDIO_HAL += libaudiopreprocessing
 AUDIO_HAL += libbatterylistener
-AUDIO_HAL += libcirrusspkrprot
+AUDIO_HAL += libbundlewrapper
 AUDIO_HAL += libcomprcapture
-AUDIO_HAL += libexthwplugin
+AUDIO_HAL += libdownmix
+AUDIO_HAL += libdynproc
+AUDIO_HAL += libeffectproxy
 AUDIO_HAL += libhdmiedid
-AUDIO_HAL += libhdmipassthru
-AUDIO_HAL += libqcomvoiceprocessingdescriptors
-AUDIO_HAL += libqcomvisualizer
-AUDIO_HAL += libqcompostprocbundle
 AUDIO_HAL += libhfp
-AUDIO_HAL += libsndmonitor
+AUDIO_HAL += libldnhncr
+AUDIO_HAL += libqcompostprocbundle
+AUDIO_HAL += libqcomvisualizer
 AUDIO_HAL += libqcomvoiceprocessing
-AUDIO_HAL += sound_trigger.primary.kona
+AUDIO_HAL += libreverbwrapper
+AUDIO_HAL += libsndmonitor
+AUDIO_HAL += libtinycompress
+AUDIO_HAL += libvisualizer
+AUDIO_HAL += libvolumelistener
 
 #AVB
 AVB += q-gsi.avbpubkey
@@ -54,12 +55,9 @@ AVB += s-gsi.avbpubkey
 
 #BLUETOOTH_HAL
 BLUETOOTH_HAL += android.hardware.bluetooth.audio@2.1-impl
-BLUETOOTH_HAL += audio.bluetooth.default
 BLUETOOTH_HAL += libbluetooth_qti
-BLUETOOTH_HAL += libbthost_if
-BLUETOOTH_HAL += libldacBT_dec
-BLUETOOTH_HAL += vendor.qti.hardware.bluetooth_audio@2.0.vendor
 BLUETOOTH_HAL += vendor.qti.hardware.btconfigstore@1.0.vendor
+BLUETOOTH_HAL += vendor.qti.hardware.btconfigstore@2.0.vendor
 
 #CAMERA
 CAMERA += android.hardware.camera.provider@2.4-impl
