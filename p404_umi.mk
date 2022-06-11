@@ -27,6 +27,9 @@ $(call inherit-product, vendor/404/configs/common.mk)
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Include GAPPS
+WITH_GAPPS := true
+
 PRODUCT_NAME := p404_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
