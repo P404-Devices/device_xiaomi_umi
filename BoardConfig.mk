@@ -126,6 +126,10 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 KERNEL_DEFCONFIG := umi_defconfig
 
+# Kernel additional flags
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-Wno-address-of-packed-member"
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
